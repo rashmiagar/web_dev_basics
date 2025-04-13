@@ -10,4 +10,37 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
+  background-color: lightgray;
+}
+#contact-form {
+  max-width: 30vw;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+input, textarea {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+input[type="submit"] {
+  background-color:steelblue;
+  color: white;
+  min-width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 300;
 }
