@@ -1,0 +1,19 @@
+
+.material-symbols-outlined {
+  color:aliceblue;
+  font-variation-settings:
+  'FILL' 0
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+   
+}
+.material-icons.md-18 { font-size: 16px; }
+
+.subgrid_style{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 16
+}

@@ -1,0 +1,128 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+/* Card Container */
+.card-container {
+  /* TODO: Center the card using flexbox */
+  display: flex;
+  justify-content: center;
+
+}
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.social-card {
+  /* TODO: Add appropriate width, background, and box-shadow
+       Practice box-model by adding padding and border-radius */
+      
+  /* width: 50%; */
+  background-color: white;
+  margin: auto;
+  /* min-height: 100vh; */
+  }
+
+/* Card Header */
+.card-header {
+  /* TODO: Use flexbox to layout profile pic, user info, and menu button */
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  padding: 20px;
+}
+
+.user-info {
+  display: flex;
+  flex-flow: column;
+}
+
+.username {
+  margin: 0px;
+}
+
+.profile-pic {
+  /* TODO: Make the profile picture circular using border-radius
+       Practice box-model for spacing */
+  /* height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden; */
+  
+}
+
+.profile-pic img {
+  /* TODO: Make image responsive */
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.menu-btn {
+  /* TODO: Position the menu button to the right side */
+  /* position: absolute;
+  right: 25vw; */
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 28px;
+  right: 20px;
+}
+
+/* Card Media Section */
+.card-media {
+  /* TODO: Set up relative positioning for the media container */
+  margin-bottom: 20px;
+}
+
+.card-media img {
+  /* TODO: Make the image responsive */
+  width: 100%;
+  margin: 0px;
+}
+
+.image-overlay {
+  /* TODO: Use absolute positioning to place the heart overlay
+       It should appear in the center when double-clicking the image */
+  opacity: 0;
+  /* transition: opacity 0.3s ease; */
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+/* Card Actions */
+.card-actions {
+  /* TODO: Use flexbox to space out the action buttons */
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+}
+
+.action-btn {
+  /* TODO: Style the action buttons */
+  border: none;
+  background:none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.action-btn.bookmark {
+  /* TODO: Position the bookmark button to the right */
+  /* position: absolute;
+  right: 30px;
+  */
+  margin-right: 0; 
+  margin-left: auto;
+}
+
+/* Card Content */
+.card-content {
+  /* TODO: Add appropriate padding and spacing */
+  margin-top: 30px;
+  padding: 20px;
+}
+
+/* TODO: Add hover effects for interactive elements */

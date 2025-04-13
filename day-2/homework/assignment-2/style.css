@@ -1,0 +1,48 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.piano-container {
+  min-height: 100vh;
+  /* TODO: Center the piano using flexbox */
+  
+}
+
+.piano {
+  /* TODO: Set up relative positioning for the piano container
+       Add appropriate width and height */
+  background: #141414;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+/* White Keys */
+.key.white {
+  background: white;
+  height: 200px;
+  width: 60px;
+  /* TODO: Add appropriate margin and border styles */
+  
+}
+
+/* Black Keys */
+.key.black {
+  background: black;
+  height: 120px;
+  width: 40px;
+  color: white;
+  /* TODO: Position black keys absolutely over white keys
+       Hint: Use absolute positioning and z-index */
+}
+
+/* Specific positioning for each black key */
+.key[data-note="C#"] {
+  /* TODO: Position the C# key */
+}
+
+/* TODO: Add positions for other black keys (D#, F#, G#, A#) */
+
+/* TODO: Add hover and active states for keys */

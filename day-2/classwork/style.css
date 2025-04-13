@@ -1,0 +1,58 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+button{
+    background-color: green;
+    color: aliceblue;
+    border: 4px solid black;
+    margin:4px;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    font-size: larger;
+}
+
+.hide{
+   position: absolute;
+ 
+   top:500px;
+   right:10px;
+
+}
+.red{
+    position: absolute;
+    top:450px;
+    z-index: ;
+    right:30px;
+ 
+    background-color: red;
+}
+.learn-padding {
+
+    border: solid 4px red;
+    
+    grid-template-columns: 1fr 2fr;
+    height: 400px;
+  
+  
+    
+  
+    max-height: 400px;
+}
+
+
+nav{
+
+    position: sticky;
+    width: 100%;
+    padding:50px;
+    font-size: larger;
+    background-color: aquamarine
+    ;
+}
+

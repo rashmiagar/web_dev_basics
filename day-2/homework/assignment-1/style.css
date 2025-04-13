@@ -1,0 +1,61 @@
+/* Gallery Container */
+.gallery-container {
+  /* Add container styles */
+  margin: 50px;
+}
+
+/* Header Styles - Practice sticky positioning */
+.gallery-header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  /* TODO: Add sticky positioning */
+  position: sticky;
+  top: 0px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Gallery Grid - Practice CSS Grid */
+.gallery-grid {
+  /* TODO: Create a responsive grid layout
+       Hint: Use grid-template-columns with repeat and minmax
+       Add appropriate gap between items */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Gallery Items - Practice Box Model */
+.gallery-item {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  /* TODO: Add appropriate margin and padding */
+  margin: 20px;
+}
+
+.gallery-item img {
+  /* TODO: Make images responsive within their containers */
+  height: 100%;
+}
+
+/* Floating Action Button - Practice Fixed Positioning */
+.add-photo-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #2196f3;
+  color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  /* TODO: Position the button fixed to bottom right corner */
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  transition: all 0.3s ease;
+}
+
+/* TODO: Add hover effects for interactive elements */

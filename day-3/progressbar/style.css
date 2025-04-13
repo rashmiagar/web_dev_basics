@@ -1,0 +1,24 @@
+.progress {
+  width: 30%;
+  height: 20px;
+  background-color: #f3f3f3ab;
+  border-radius: 5px;
+  /* background: linear-gradient(90deg, #fff5, rgba(230, 230, 230, 0.891)); */
+  animation: pulse 1.3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #f3f3f396;
+    /* left: -50%; */
+    width: 0%;
+  }
+  50% {
+    background-color: #e0e0e072;
+  }
+  100% {
+    background-color: #f3f3f31b;
+      /* left: 150%; */
+      width: 100%;
+  }
+}
