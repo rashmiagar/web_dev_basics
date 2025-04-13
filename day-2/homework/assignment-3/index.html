@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card-container">
+      <article class="social-card">
+        <div class="card-header">
+          <div class="profile-pic">
+            <img
+              src="profile.jpg"
+             
+              alt="Profile Picture" />
+          </div>
+          <div class="user-info">
+            <h3 class="username">@username</h3>
+            <span class="post-time">2 hours ago</span>
+          </div>
+            <button class="menu-btn">⋮</button>
+        </div>
+
+        <div class="card-media">
+          <img
+            src="nature.jpg"
+            alt="Post image" />
+          <span class="image-overlay">❤️</span>
+        </div>
+
+        <div class="card-actions">
+          <button class="action-btn">❤️</button>
+          <button class="action-btn">💬</button>
+         
+          <button class="action-btn bookmark">🔖</button>
+        </div>
+
+        <div class="card-content">
+          <p class="likes-count">1,234 likes</p>
+          <p class="post-caption">
+            <strong>@username</strong> Beautiful sunset today! 🌅
+          </p>
+        </div>
+      </article>
+    
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+    <script>
+      // JavaScript to handle the bookmark button click
+      const cardImageButton = document.querySelector('.card-media');
+      const imageOverlay = document.querySelector('.image-overlay');
+      cardImageButton.addEventListener('click', () => {
+          imageOverlay.style.transition = 'opacity 0.5s';
+          imageOverlay.style.opacity = '0.5';
+          // imageOverlay.style.transition = 'opacity 0.5s';
+          // imageOverlay.style.opacity = '0';
+        });
+      // });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+/* Add your CSS styles here */
+/* Style the following:
+   - Menu layout
+   - Menu categories
+   - Menu items and prices
+   - Colors and typography
+   - Spacing and borders
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: lightgray;
+}
+
+#menu {
+  width: 60%;
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+}
+h1 {
+  border-bottom: 2px solid darkslateblue;
+  color:darkslateblue;
+  text-align: center;
+}
+h2 {
+  color: orange;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 2px solid lightgray;
+  padding: 10px;
+}
+
+.price {
+  float: right;
+  color:darkslateblue;
+  font-weight: bold;
+  font-style: italic;
+}

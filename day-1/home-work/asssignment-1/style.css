@@ -1,0 +1,41 @@
+/* Add your CSS styles here */
+/* Remember to style:
+   - Page background
+   - Text colors
+   - Headings
+   - Lists
+   - Images
+   - Spacing (margin/padding)
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: lightgray;
+}
+
+#profile {
+  width: 30%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  height: 90vh;
+}
+
+
+.outer-div {
+  height: 100vh;
+}
+
+h2 {
+  color: darkcyan;
+  border-bottom: darkcyan solid 2px;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+#heading {
+  text-align: center;
+}

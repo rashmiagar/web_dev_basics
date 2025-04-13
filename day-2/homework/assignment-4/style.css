@@ -1,0 +1,72 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header and Navigation */
+.main-header {
+  background: #333;
+  color: white;
+  /* TODO: Implement sticky positioning */
+}
+
+.nav-container {
+  /* TODO: Use flexbox to layout logo and nav-menu
+       Add appropriate padding and max-width */
+}
+
+/* Navigation Menu */
+.nav-menu {
+  list-style: none;
+  /* TODO: Use flexbox to layout menu items horizontally */
+}
+
+.nav-item {
+  /* TODO: Add appropriate padding and positioning */
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  /* TODO: Add padding and hover effects */
+}
+
+/* Dropdown Styles */
+.dropdown {
+  /* TODO: Set up relative positioning for dropdown container */
+}
+
+.dropdown-menu {
+  /* TODO: Style the dropdown menu and use absolute positioning
+       Initially hidden, should appear on hover
+       Practice z-index and box-shadow */
+  display: none;
+  list-style: none;
+}
+
+/* TODO: Make dropdown visible on hover */
+.dropdown:hover .dropdown-menu {
+  /* Your code here */
+}
+
+/* Content Sections */
+.content {
+  /* TODO: Add appropriate padding and max-width */
+}
+
+.hero {
+  background: #f4f4f4;
+  /* TODO: Add padding and text alignment */
+}
+
+.section {
+  /* TODO: Add margin and padding for content sections */
+}
+
+/* TODO: Add hover effects for interactive elements */
